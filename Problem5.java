@@ -17,8 +17,7 @@ public class codeforces {
             temp -= b;
             div++;
         }
-        int mod = a - (div * b);
-        System.out.println("Mod :" + mod + " "+ "Div " + div );
+        System.out.println("Mod :" + temp + " "+ "Div " + div );
 
         sc.close();
     }
